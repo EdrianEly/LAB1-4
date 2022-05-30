@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: rgb(23, 5, 112);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.logo{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+h4 a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+#home{
+    background-size: 100%;
+    background-image: url(1.png);
+}
+
+#about{
+    background-size: 100%;
+    background-image: url(2.png);
+    
+}
+
+#more{
+    background-size: 100%;
+    background-image: url(6.gif);
+
+}
+
+
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+}
+
+.first {
+    top: 100%;
+    left: 0;
+    margin: 140px;
+    position: relative;
+    z-index: 10;
+    float: right;
+}
+
+.first__image {
+    clip-path: polygon(0 0 , 100% 0, 75% 100, 0 100%);
+    
+    
+}
+#first #h1{
+    text-align: justify;
+    position: absolute;
+    top: 40%;
+    left: 18.2%;
+    transform: translate(-50%, -50%);
+    color: rgb(49, 17, 163);
+    font-size: 35px;
+}
+#first #h2{
+    text-align: justify;
+    position: absolute;
+    top: 50%;
+    left: 28.7%;
+    transform: translate(-50%, -50%);
+    color: rgb(49, 17, 163);
+    font-size: 45px;
+
+}
+
+#first #h3{
+    text-align: justify;
+    position: absolute;
+    top: 62%;
+    left: 25.7%;
+    transform: translate(-50%, -50%);
+    color: rgb(49, 17, 163);
+    font-size: 20px;
+
+}
+
+#second{
+    text-align: justify;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    color: rgb(214, 15, 181);
+    font-size: 14.3px;
+
+}
+
+#third #j1{
+    text-align: justify;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 255, 76);
+    font-size: 25px;
+
+}
+
+#third #j2{
+    text-align: justify;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 255, 76);
+    font-size: 22px;
+
+}
+
+#third #j3{
+    text-align: justify;
+    position: absolute;
+    top: 38%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 255, 76);
+    font-size: 25px;
+
+}
+
+
+#third #j4{
+    text-align: justify;
+    position: absolute;
+    top: 43%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 255, 76);
+    font-size: 22px;
+
+}
+
+#third #j5{
+    text-align: justify;
+    position: absolute;
+    top: 43%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 255, 76);
+    font-size: 22px;
+
+}
+
+#third #j6{
+    text-align: justify;
+    position: absolute;
+    top: 48%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 255, 76);
+    font-size: 22px;
+
+}
+
+#third #j7{
+    text-align: justify;
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 255, 76);
+    font-size: 25px;
+
+    
+}
+
+#third #j8{
+    text-align: justify;
+    position: absolute;
+    top: 72%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 255, 76);
+    font-size: 22px;
+
+}
+#third #j9{
+    text-align: justify;
+    position: absolute;
+    top: 72%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 255, 76);
+    font-size: 22px;
+
+}
+#third #j10{
+    text-align: justify;
+    position: absolute;
+    top: 79%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 255, 76);
+    font-size: 22px;
+
+}
+
+
+
+
+
+
